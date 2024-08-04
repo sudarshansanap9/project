@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6,
     -o-transition: .3s all ease;
     transition: .3s all ease; }
   .sticky-wrapper .site-navbar {
-    background: #fff !important; }
+    background: rgb(37, 206, 201) !important; }
     .sticky-wrapper .site-navbar .site-logo a {
       color: #fff; }
     .sticky-wrapper .site-navbar ul li a {

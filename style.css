@@ -98,7 +98,7 @@ body {
 .homepage .btn {
     background-color: transparent; 
     color: white;
-    border: 2px solid #eb4d4b;
+    border: 2px solid rgb(37, 206, 201);
     padding: 10px 20px;
     margin: 0 10px;
     border-radius: 25px;
@@ -106,8 +106,8 @@ body {
     transition: background-color 0.3s, border-color 0.3s;
 }
 .homepage .btn:hover {
-    background-color: #eb4d4b;
-    color: white; 
+    background-color: rgb(37, 206, 201);
+    color: black; 
 }
 /* contact */
 .m-last{
@@ -133,7 +133,7 @@ body {
   color: black;
   transition: .5s;
 }
-.last div button{
+.last div a button{
   font-size: 25px;
   width: 200px;
   padding: 15px 0;
@@ -141,15 +141,15 @@ body {
   margin: 20px 10px;
   border-radius: 25px;
   font-weight: bold;
-  border: 2px solid #eb595f;
+  border: 2px solid rgb(37, 206, 201);
   background: transparent;
   color: black;
   cursor: pointer;
   position: relative;
 }
-.last div button:hover{
-  background-color: #eb595f;
-  color: white;
+.last div a button:hover{
+  background-color: rgb(37, 206, 201);
+  color: black;
 }
 
 /* why choose us? */
@@ -189,17 +189,17 @@ body {
 
 /* dream home */
 .btnn-custom {
-  color: #eb4d4b;
+  color: rgb(37, 206, 201);
   background-color: transparent;
-  border: 2px solid #eb4d4b;
+  border: 2px solid rgb(37, 206, 201);
   transition: background-color 0.3s ease;
   width: 200px;
   height: 45px;
   border-radius: 30px;
 }
 .btnn-custom:hover {
-  background-color: #eb4d4b;
-  color: white;
+  background-color: rgb(37, 206, 201);
+  color: black;
 }
 .clients{
   margin: 0;
@@ -276,7 +276,7 @@ body {
   cursor: pointer;
   font-size: 15px;
   background: #ffffff;
-  border: 2px solid #eb595f;
+  border: 2px solid rgb(37, 206, 201);
   padding: 10px;
   margin: 0 0 0 20px;
   border-radius: 15px;
@@ -287,7 +287,7 @@ body {
 }
 .d1 div button:hover{
   color: #ffffff;
-  background: #eb595f;
+  background: rgb(37, 206, 201);
 }
 .last{
   position: relative;
@@ -320,15 +320,25 @@ body {
   margin: 20px 10px;
   border-radius: 25px;
   font-weight: bold;
-  border: 2px solid #eb595f;
+  border: 2px solid rgb(37, 206, 201);
   background: transparent;
   color: black;
   cursor: pointer;
   position: relative;
 }
 .last div button:hover{
-  background-color: #eb595f;
-  color: white;
+  background-color: rgb(37, 206, 201);
+  color: black;
+}
+.Heading{
+  color: rgb(37, 206, 201);
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.HeadingHr{
+  color: rgb(37, 206, 201);
+  background-color: rgb(37, 206, 201);
+  font-weight: bolder;
 }
 /* footer */ 
 .footer {
@@ -338,7 +348,7 @@ body {
         }
         
         .footer .footer-top {
-            background: #eb4d4b;
+            background: rgb(37, 206, 201);
             padding: 60px 0 30px 0;
         }
         
@@ -353,7 +363,7 @@ body {
             font-size: 18px;
             display: inline-block;
             background: #ffffff;
-            color: #eb4d4b;
+            color: rgb(37, 206, 201);
             line-height: 1;
             padding: 9px 0;
             margin-right: 4px;
@@ -364,7 +374,7 @@ body {
         }
         
         .footer .footer-top .social-links a:hover {
-            background: #d9403d;
+            background: rgb(37, 206, 201);
             color: #ffffff;
         }
         
@@ -417,7 +427,7 @@ body {
         }
         
         .footer .footer-top .footer-links ul a:hover {
-            color: #00bfff;
+            color: #5153d0;
         }
         
         .footer .footer-top .footer-contact p {
@@ -472,3 +482,95 @@ body {
                 text-align: left;
             }
           }
+
+          /* login page */
+          .main-container {
+            display: flex;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(15px);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            width: 800px;
+            max-width: 90%;
+            text-align: center;
+            flex-direction: row;
+            align-items: center;
+            animation: fadeIn 1s ease-in-out;
+            box-sizing: border-box; /* Ensure padding is included in width/height */
+        }
+
+        .left-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box; /* Ensure padding is included in width/height */
+        }
+
+        .left-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .login-container {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            width: 100%;
+            max-width: 100%;
+            position: relative;
+            text-align: center;
+            animation: slideIn 1s ease-in-out;
+            box-sizing: border-box; /* Ensure padding is included in width/height */
+        }
+
+        .login-container img {
+            width: 250px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        
+
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+            color: #000000;
+        }
+        
+
+        @media (max-width: 800px) {
+            .main-container {
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
+            }
+
+            .left-container img {
+                width: 100%;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
